@@ -21,7 +21,7 @@ const SideNav = ({user, money, goToTamaStore, userPets, handleUserPetIconClick, 
                     <p className="greeting-text" id="greeting-name">Hi {user.name}!</p>
                 </div>
                 <div className="greeting">
-                    <img id="coin-icon" src="https://c.tenor.com/YFZ-qJQdkKIAAAAj/mario-coin.gif"></img> 
+                    <img id="coin-icon" src="https://c.tenor.com/YFZ-qJQdkKIAAAAj/mario-coin.gif" alt="coin pixel icon"></img> 
                     <p className="greeting-text" id="greeting-money">{money}</p>
                 </div> 
             </div> : null}

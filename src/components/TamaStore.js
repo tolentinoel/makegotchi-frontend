@@ -48,7 +48,7 @@ class TamaStore extends React.Component{
                 {/* list of tamagotchis */}
                 <ListGroup variant="flush">
                     {this.props.allSpecies.slice(this.state.tamaNumber, this.state.tamaNumber + 2).map((pet, idx) =>
-                        <ListGroup.Item className="list_item">
+                        <ListGroup.Item className="list_item" key={idx}>
                             <Container className="container">
                                 <Row className="tama_store_row">
                                     <Col id="store_col">

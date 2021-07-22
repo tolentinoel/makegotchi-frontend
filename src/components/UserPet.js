@@ -27,7 +27,7 @@ const UserPet = ({ currentPet, feedIn, sleepIn, cleanIn }) => {
                 </Col>
             </div>
             <Row id="pet_img_row">
-                <Bounce><img id="pet-img" src={pet.img_url} alt="Pet Image" /></Bounce>
+                <Bounce><img id="pet-img" src={pet.img_url} alt="Tamagotchi jpg" /></Bounce>
             </Row>
         </div>
     )
