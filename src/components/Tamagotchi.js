@@ -90,7 +90,7 @@ export default class Tamagotchi extends React.Component{
                                 <div id='screen'>
                                     <h5 id="no-pets-text">You don't have any pets!</h5>
                                     <Button className="buyPet_btn" id="no-pets-btn" variant="outline-warning" onClick={this.props.goToTamaStore}>Buy a Pet</Button>
-                                    <img id="unicorn" src="https://i.pinimg.com/originals/54/12/b7/5412b7018f96fffeb53fea4438f0b986.gif"></img>
+                                    <img id="unicorn" src="https://i.pinimg.com/originals/54/12/b7/5412b7018f96fffeb53fea4438f0b986.gif" alt="Sad unicorn"></img>
                                 </div>
                             </div>
                         </Row>

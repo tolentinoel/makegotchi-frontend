@@ -9,7 +9,7 @@ const TopNav = ({ loggedIn, handleLogout, isDisabled}) => {
         className='ml-auto'
         bg="dark"
         variant="dark"
-        activeKey="/home"
+        activekey="/home"
         ><Nav.Link href="/home"><h4 id="logo_topNav">MAKEGOTCHI</h4></Nav.Link>
         { loggedIn ?
             <Navbar.Collapse className='justify-content-end'>
